@@ -23,7 +23,7 @@ def word_select():
 
 # letter guessing ang validation 
 def letter_guess():
-    l = input("Guess a letter: ")
+    l = str(input("Guess a letter: "))
     if l == "" or len(l) > 1:
         l = letter_guess()
     return l
@@ -86,7 +86,7 @@ def game_init():
     game = Hangman(w)
     result = ""
     start = int(round(time.time())) # starts the stopwatch
-    print("\nWelcome to the HANGMAN game!\nNote: if you run this program on MacOS, input letters in 'speach marks' while guessing.")
+    print("\nWelcome to the HANGMAN game!\nNote: if you run this program on MacOS, input letters in 'speech marks' while guessing.")
     while game.is_alive() and (not game.is_solved()):
         print("\nWord: {}".format(game.stars_letters_return()))
         print("Healths: {}".format(game.healths_return()))
