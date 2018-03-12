@@ -35,6 +35,7 @@ If you guessed wrong - one health point will be taken away from you:
 
 ```
 Guess a letter: a
+
 Word: *mm*****
 Healths: 9
 Guess a letter:
