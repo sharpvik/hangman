@@ -6,7 +6,7 @@ This is a simple Hangman game done in Python.
 2. **Download** this directory as a **ZIP file** by pressing the big green button *Clone or Download* -> *Download ZIP*.
 3. **Unzip** the folder.
 4. As soon as you have the *hangman-master* folder unzipped, you need to **launch** *hangman.py*. You can do this using various methods (like CMD *for Windows*, Terminal *for MacOS*, Standard Python IDLE to open the file + F5 to run it *works on every platform*).
-5. Enjoy!
+5. **Enjoy!**
 
 ## How to play
 The game is fairly simple: algorithm randomly chooses a noun from the file called *words.txt* and your goal is to **guess** what this word is letter by letter.
