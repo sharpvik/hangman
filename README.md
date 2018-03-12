@@ -5,7 +5,7 @@ This is a simple Hangman game done in Python.
 1. To run this game you need to make sure you have **Python** installed on your machine. Except for that - it's really easy.
 2. **Download** this directory as a **ZIP file** by pressing the big green button *Clone or Download* -> *Download ZIP*.
 3. **Unzip** the folder.
-4. As soon as you have the *hangman-master* folder unzipped, you need to **launch** *hangman.py*. You can do this using various methods (like CMD *for Windows*, Terminal *for MacOS*, Standard Python IDLE to open the file + F5 to run it *works on every platform*).
+4. As soon as you have the *hangman-master* folder unzipped, you need to **launch** *hangman.py*. You can do this using various methods (like CMD *for Windows*, Terminal *for MacOS*, Standard Python IDLE to open the file + F5 to run it *works on every platform*). Depending on your *Python installation settings* you can use commands like `python hangman.py` or `hangman.py` to launch the file in your console terminal.
 5. **Enjoy!**
 
 ## How to play
@@ -58,6 +58,10 @@ If you ever want to check your progress - open the *log.txt* file. There you can
 WON in 34 seconds for the word IMMUNITY
 LOST in 41 seconds for the word INTELLIGENCE
 ```
+
+## Exit
+
+After each round the game will provide you with two choices: press *ENTER* to play again or input *Q* (doesn't matter upper- or lowercase) to exit.
 
 ## Play yourself and share with friends!
 
