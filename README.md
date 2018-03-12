@@ -5,7 +5,7 @@ This is a simple Hangman game done in Python.
 1. To run this game you need to make sure you have **Python** installed on your machine. Except for that - it's really easy.
 2. **Download** this directory as a **ZIP file** by pressing the big green button *Clone or Download* -> *Download ZIP*.
 3. **Unzip** the folder.
-4. As soon as you have the *hangman-master* folder unzipped, you need to launch *hangman.py*. You can do this using various methods (like CMD *for Windows*, Terminal *for MacOS*, Standard Python IDLE to open the file + F5 to run it *works on every platform*).
+4. As soon as you have the *hangman-master* folder unzipped, you need to **launch** *hangman.py*. You can do this using various methods (like CMD *for Windows*, Terminal *for MacOS*, Standard Python IDLE to open the file + F5 to run it *works on every platform*).
 5. Enjoy!
 
 ## How to play
@@ -44,7 +44,6 @@ Continue until you figure it out or run out of health points. At the end you wil
 
 ```
 Congratulations! You won! The word was IMMUNITY.
-
 ```
 ```
 Well... It was a nice try anyways. The word was IMMUNITY.
