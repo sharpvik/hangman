@@ -7,6 +7,7 @@ This is a simple Hangman game done in Python.
 3. **Unzip** the folder.
 4. As soon as you have the *hangman-master* folder unzipped, you need to **launch** *hangman.py*. You can do this using various methods (like CMD *for Windows*, Terminal *for MacOS*, Standard Python IDLE to open the file + F5 to run it *works on every platform*). 
 5. Depending on your *Python installation settings* you can use commands like `python hangman.py` or `hangman.py` to launch the file in your console terminal. Be sure to change the path in your terminal to that of the *hangman-master* folder.
+
 *Windows* CMD terminal should look like this:
 ```
 PS C:\path\to\the\folder\hangman-master>
@@ -15,6 +16,9 @@ PS C:\path\to\the\folder\hangman-master>
 ```
 john@doe:~ path/to/the/folder/hangman-master$
 ```
+[*Windows* CMD Terminal Tutorial - YouTube](https://www.youtube.com/watch?v=MBBWVgE0ewk)
+[*MacOS* Terminal Tutorial - YouTube](https://www.youtube.com/watch?v=F1kAm_2d0yo)
+[*Linux* Terminal Tutorial - YouTube](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
 6. **Enjoy!**
 
 ## How to play
