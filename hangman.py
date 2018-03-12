@@ -104,10 +104,9 @@ def game_init():
     log = open("log.txt", "a+")
     log.write("{} in {} seconds for the word {}\n".format(result, total_time, game.word_return()))
     log.close()
+    # exit
+    e = input("Press ENTER to play one more time or input Q to exit: ")
+    if e.lower() != "q":
+        game_init()
 
 game_init()
-
-
-
-# exit
-a = input("Press ENTER to exit ")
