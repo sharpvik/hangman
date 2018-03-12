@@ -62,7 +62,7 @@ LOST in 41 seconds for the word INTELLIGENCE
 
 I would be flattered if you'd **share** this game with some of your friends and/or **collaborate** here in GitHub.
 
-## Contact me
+## Contact
 
 For any personal or business enquiries:
 - Email: *sharp.vik@gmail.com*
