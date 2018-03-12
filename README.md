@@ -57,3 +57,5 @@ If you ever want to check your progress - open the *log.txt* file. There you can
 WON in 34 seconds for the word IMMUNITY
 LOST in 41 seconds for the word INTELLIGENT
 ```
+
+> Play yourself and share with friends!
