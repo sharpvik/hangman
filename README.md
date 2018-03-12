@@ -22,6 +22,7 @@ john@doe:~ path/to/the/folder/hangman-master$
 
 [*Linux* Terminal Tutorial - YouTube](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
 
+> To open *Windows CMD* with the location of this specific folder you can open the folder, make sure none of the files is highlighted, **left SHIFT + right MOUSE click** hovering over some free space in the folder -> *Open PowerShell window here* or *Open command window here*.
 6. **Enjoy!**
 
 ## How to play
