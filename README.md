@@ -17,8 +17,11 @@ PS C:\path\to\the\folder\hangman-master>
 john@doe:~ path/to/the/folder/hangman-master$
 ```
 [*Windows* CMD Terminal Tutorial - YouTube](https://www.youtube.com/watch?v=MBBWVgE0ewk)
+
 [*MacOS* Terminal Tutorial - YouTube](https://www.youtube.com/watch?v=F1kAm_2d0yo)
+
 [*Linux* Terminal Tutorial - YouTube](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
+
 6. **Enjoy!**
 
 ## How to play
