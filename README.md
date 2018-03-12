@@ -58,4 +58,14 @@ WON in 34 seconds for the word IMMUNITY
 LOST in 41 seconds for the word INTELLIGENT
 ```
 
-> Play yourself and share with friends!
+## Play yourself and share with friends!
+
+I would be flattered if you'd **share** this game with some of your friends and/or **collaborate** here in GitHub.
+
+## Contact
+
+For any personal or business enquiries:
+- Email: *sharp.vik@gmail.com*
+- [Twitter](https://twitter.com/sharp_vik)
+- [VK](https://vk.com/perigrinus)
+- [Instagram](https://www.instagram.com/viktooooor) 
