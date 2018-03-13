@@ -21,10 +21,11 @@ def word_select():
     chosen_word = words[r]
     return chosen_word
 
-# letter guessing ang validation 
+# letter guessing and validation                                                                    
 def letter_guess():
-    l = str(input("Guess a letter: "))
-    if l == "" or len(l) > 1:
+    l = str(input("Guess a letter: ")).lower()
+    if l not in "qwertyuiopasdfghjklzxcvbnm-" or len(l) > 1 or l == "":                              
+        print("ERROR: Input invalid!")                                                               
         l = letter_guess()
     return l
 
@@ -44,6 +45,9 @@ class Hangman:
     def stars_letters_return(self):
         return self.stars_letters
 
+    def letters_used_return(self):                                                              
+        return ", ".join(self.letters_used)                                                     
+
     def letter_apply(self, letter):
         indexes = []
         if letter not in self.letters_used and letter in self.word:
@@ -58,7 +62,8 @@ class Hangman:
             print("ERROR: This letter has been used before!")
         else:
             self.healths_decrement()
-        self.letters_used.append(letter)
+        if letter not in self.letters_used:                                                     
+            self.letters_used.append(letter)                                                        
 
     def healths_return(self):
         return self.healths
@@ -90,6 +95,7 @@ def game_init():
     while game.is_alive() and (not game.is_solved()):
         print("\nWord: {}".format(game.stars_letters_return()))
         print("Healths: {}".format(game.healths_return()))
+        print("Used letters: {}".format(game.letters_used_return()))                                   
         l = letter_guess()
         game.letter_apply(l)
     if game.is_solved():
