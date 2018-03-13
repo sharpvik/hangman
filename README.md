@@ -1,6 +1,9 @@
 # Hangman Game
 This is a simple Hangman game done in Python. 
 
+## What's new
+In the latest commit, letter **validation fixed**. The game will now reject any symbols other than letters and a dash "-" because it is used is some English words like "good-bye".
+
 ## How to run
 1. To run this game you need to make sure you have **Python** installed on your machine. Except for that - it's really easy.
 2. **Download** this directory as a **ZIP file** by pressing the big green button *Clone or Download* -> *Download ZIP*.
@@ -68,7 +71,6 @@ Well... It was a nice try anyways. The word was IMMUNITY.
 ```
 
 ## Progress
-
 If you ever want to check your progress - open the *log.txt* file. There you can find all the information about your previous runs (won or lost, how long did it take, what was the word):
 
 ```
@@ -77,15 +79,12 @@ LOST in 41 seconds for the word INTELLIGENCE
 ```
 
 ## Exit
-
 After each round the game will provide you with two choices: press *ENTER* to play again or input *Q* (doesn't matter upper- or lowercase) to exit.
 
 ## Play yourself and share with friends!
-
 I would be flattered if you'd **share** this game with some of your friends and/or **collaborate** here in GitHub.
 
 ## Contact
-
 For any personal or business enquiries:
 - Email: *sharp.vik@gmail.com*
 - [Twitter](https://twitter.com/sharp_vik)
