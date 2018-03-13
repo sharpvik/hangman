@@ -38,6 +38,7 @@ Note: if you run this program on MacOS, input letters in 'speech marks' while gu
 
 Word: ********
 Healths: 10
+Used letters:
 Guess a letter: 
 ``` 
 
@@ -48,6 +49,7 @@ Guess a letter: m
 
 Word: *mm*****
 Healths: 10
+Used letters: m
 Guess a letter: 
 ```
 
@@ -58,6 +60,7 @@ Guess a letter: a
 
 Word: *mm*****
 Healths: 9
+Used letters: m, a
 Guess a letter:
 ```
 
